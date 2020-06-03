@@ -18,3 +18,8 @@ GIT COMMANDS:
 - git reset --hard <commit> : reset the repository to a given commit
 - git reset --hard origin/master : reset the repository to its original state (e.g. the version cloned from GitHub)
 
+
+‘Branching’ is a feature of Git that allows a project to move in multiple different directions simultaneously. There is one master branch that is always usable, but any number of new branches can be created to develop new features. Once ready, these branches can then be merged back into master.
+
+When working in a Git repository, HEAD refers to the current branch being worked on. When a different branch is ‘checked out’, the HEAD changes to indicate the new working branch.
+
