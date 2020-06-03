@@ -39,15 +39,19 @@ SASS INHERITANCE
 Inheritance is similar to the object-oriented concept. It allows for slight tweaking of a general style for different components.
 
       %message {
-           font-family: sans-serif;
+            font-family: sans-serif;
             font-size: 18px;
             font-weight: bold;
          }
 
       .specificMessage {
-      @extend %message;
-      background-color: green;
+            @extend %message;
+            background-color: green;
          } 
 
 
 %message defines a general pattern that can be inherited in other style definitions using the @extend %message syntax. In addition, other style properties can be added.
+
+% effectively lets us design a template, something that other things are going to/can inherit from. 
+
+
