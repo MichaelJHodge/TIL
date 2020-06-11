@@ -55,19 +55,20 @@ ${counter} will be replaced by the value of the counter variable.
                   document.querySelector('button').onclick = count;
               });
               
-     addEventListener is a function, which, like it suggests, waits for an event to occur. It can also take other
-     functions as values. This is called HIGHER ORDER FUNCTIONS which means that functions can be passed around like other values.
-     The function being called is a CALLBACK FUNCTION. The callback is called when the event being listened for occurs. In this case, 
-     when the entire HTML structure is loaded by the browser (DOMContentLoaded), then the function is called. 
-     
-     JS can be factored out of the HTML code as well, so that the HTML file isn't bogged down,
-     and it's reusable! 
+addEventListener is a function, which, like it suggests, waits for an event to occur. It can also take other
+functions as values. This is called HIGHER ORDER FUNCTIONS which means that functions can be passed around like other values.
+
+The function being called is a CALLBACK FUNCTION. The callback is called when the event being listened for occurs. In this case, when the entire HTML structure is loaded by the browser (DOMContentLoaded), then the function is called. 
+ 
+JS can be factored out of the HTML code as well, so that the HTML file isn't bogged down,
+and it's reusable! 
+        
         <script src="filename.js"</script>
      
-     VARIABLES
-     -const: defines a constant variable that CANT be redefined.
-     -let: defines a variable LOCAL to the scope of the innermost curly braces surrounding it.
-     -var: defines a variable that is LOCAL to the FUNCTION it's defined in. 
+VARIABLES
+ -const: defines a constant variable that CANT be redefined.
+ -let: defines a variable LOCAL to the scope of the innermost curly braces surrounding it.
+ -var: defines a variable that is LOCAL to the FUNCTION it's defined in. 
      
 JS can also modify the style (CSS properties) of elements.
     
