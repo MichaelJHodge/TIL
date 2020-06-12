@@ -53,7 +53,7 @@ SVG Animation: Scalable Vector Graphic - a graphical element determined by lines
       </script>
       </html>
 
-- d3.selent gets access to an HTMl element. 
+- d3.select gets access to an HTMl element. 
 - Animations can also be added to SVGs. 
 - Animations can be delayed or triggered on certain events. 
 
