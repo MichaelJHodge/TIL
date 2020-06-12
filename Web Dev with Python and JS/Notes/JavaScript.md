@@ -99,5 +99,18 @@ JavaScript can use local storage to keep track of some state information.
 localStorage is the variable that JS can store info at. getItem and setItem can be called
 on localStorage or either load or save data. 
 
+AJAX: Asynchronous JS and XML
+- A method for creating better, faster, and more intuitive web applications. It's used to get more
+info from the server w/o needing to reload an entirely new page. 
+- An XMLHttpRequest is an object that will allow an Ajax request to be made.
+- JSON.parse converts the raw response into ab object that can be indexed by keys and values.
+
+WEBSOCKETS
+- The request-response mondel, the basis for how HTTP requests and client-server interaction, is useful as long as data is only being passed when a request is made. 
+- BUT, with real-time communication, there IS NOT the need to reload a webpage, for instance,
+to check if someone sent a message in a chat room. 
+- Socket.io is a JS library that support this protocol. 
+- flask_socketio is a library that allows for websockets inside a Flask application. It allows for the web server and client to be emitting events to all other users, while also listening for and receiving events being broadcasted by others.
+ 
 
 
